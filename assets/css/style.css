@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+#head{
+    background: #ffffff;
+}
+
 #gameRules, #gameScores, #gemRow, #yourScore{
     width: 75%;
     margin: 0 auto;
@@ -50,8 +54,6 @@
 #gameScores{
     line-height: 5px;
 }
-
-
 
 #yourScore{
     margin-top: 20px;

@@ -56,10 +56,10 @@ function reset() {
     purple.value = getRandomGenValue();
     playerScore = 0;
 
-    console.log(diamond.value);
-    console.log(emerald.value);
-    console.log(ruby.value);
-    console.log(purple.value);
+    console.log("Diamond: " + diamond.value);
+    console.log("Emerald: " + emerald.value);
+    console.log("Ruby: " + ruby.value);
+    console.log("Purple: " + purple.value);
 
 
     $wins.text("Wins: " + wins);
@@ -69,15 +69,10 @@ function reset() {
     $randomNum.text(randomeScore);
 
 }
-
 $(document).ready(function () {
 
-    // starts the game.
-    reset();
-
     $gems.on("click", function () {
-
-        switch ($gems.val()) {
+        switch (this.value) {
             case "ruby":
                 playerScore += ruby.value;
                 break;
@@ -92,7 +87,7 @@ $(document).ready(function () {
                 break;
         }
 
-        console.log($gems.val());
+        console.log(this.value);
 
         console.log(playerScore);
 
@@ -108,5 +103,5 @@ $(document).ready(function () {
             reset();
         }
     });
-
+    reset();
 });
