@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+#gameRules, #gameScores, #gemRow, #yourScore{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#gameHeading h2{
+    padding: 20px;
+}
+
+#gameRules h5{
+    margin: 10px;
+}
+
+#gameRules{
+    margin-top: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    background: #A4FFE6;
+}
+
+#gameHeading{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+#gameScores .col-md-8{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#gameScores .col-md{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+#gameScores{
+    line-height: 5px;
+}
+
+
+
+#yourScore{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+img{
+    cursor: pointer;
+}
